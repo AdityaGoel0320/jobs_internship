@@ -1,0 +1,180 @@
+/* Universal */
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+
+
+/* Navbar  */
+.navbar {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+}
+
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  width: 20vh;
+}
+
+.navlist {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navlist ul {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navlist ul li {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.navlist ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.buttons {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn {
+  padding: 10px 30px;
+}
+
+/* Banner */
+.banner {
+  width: 100%;
+  height: 35vh;
+  background-color: palegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1 {
+  font-size: 4rem;
+}
+
+
+
+
+/* ======================
+jobs.html styles start
+====================== */
+
+
+.box_cont {
+
+  display: flex;
+  gap: 2px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  margin: 40px;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  color: black;
+
+  background-image: url("cloudimg.jpg");
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+}
+
+
+.web {
+  background-image: url("webimg.jpg");
+  color: white;
+}
+
+
+.cloud {
+  background-image: url("cloudimg.jpg");
+  color: white;
+}
+
+.uiux {
+  background-image: url("uiuximg.png");
+}
+
+
+.android {
+  background-image: url("androidimg.jpg");
+
+
+}
+
+.flutter {
+  background-image: url("flutterimg.jpg");
+}
+
+
+.react {
+  background-image: url("reactimg.jpg");
+
+}
+
+
+.java {
+  background-image: url("java.png");
+}
+
+.c {
+  background-image: url("c++img.jpg");
+
+}
+
+
+.pages {
+  padding: 5rem 0rem;
+  text-align: center;
+}
+
+.pages a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.pages a:hover {
+  background-color: royalblue;
+}
+
+
+
+/* ======================
+jobs.html styles end
+====================== */
